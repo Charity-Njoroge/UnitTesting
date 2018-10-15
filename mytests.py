@@ -1,6 +1,8 @@
 import sys
 import unittest
 
+import book_rental as book_rentalClass
+
 
 class book_rental_charge(unittest.TestCase):
     """Sample test case"""
@@ -8,7 +10,7 @@ class book_rental_charge(unittest.TestCase):
     # preparing to test
     def setUp(self):
         """ Setting up for the test """
-        print "book_rental_charge:setUp_:begin"
+        print "book_rental_charge:setUp_:begin")
 
         testName = self.shortDescription()
         if (testName == "total_rental_cost1"):
@@ -48,7 +50,7 @@ class book_rental_charge(unittest.TestCase):
         #                     total_cost_per_day,
         #                     "no_of_days_rented is not"
         #                     "equal to total_cost_per_day")
-        print "book_rental_charge:total_rental_cost1"
+        print "book_rental_charge:total_cost"
 
     # test routine B
     def testB(self):
